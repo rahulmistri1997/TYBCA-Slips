@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bookstore>
+<book category="COOKING">
+<title lang="en">Baking: From my Home to Yours</title>
+<author>Dorie Greenspan</author>
+<year>2006</year>
+<price>400</price>
+</book>
+<book category="CHILDREN">
+    <title lang="en">Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+<book category="LOVE STORY">
+<title lang="en">In Love -Till My Last Breath</title>
+<author>Om Shukla</author>
+<year>2014</year>
+<price>200</price>
+</book>
+</bookstore>

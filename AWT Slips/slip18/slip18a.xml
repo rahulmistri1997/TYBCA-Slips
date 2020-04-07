@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ABCStore>
+<book>
+<category>Technical</category>
+<title>Web</title>
+<price>200</price>
+</book>
+<book><category>Cooking</category><title>Healthy Breakfast</title><price>250</price></book><book><category>Cooking</category><title>da</title><price>22</price></book><book><category/><title/><price/></book><book><category/><title/><price/></book><book><category>Technical</category><title>misery</title><price>999</price></book></ABCStore>

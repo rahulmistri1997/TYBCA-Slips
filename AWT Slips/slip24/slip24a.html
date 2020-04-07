@@ -1,0 +1,37 @@
+<html>
+  <head><title>slip24</title>
+      <script language = "javascript">
+      var xmlhttp = new XMLHttpRequest();
+
+       function fun1()
+       {
+         var s1 = document.getElementById("tno1").value;
+         var s2 = document.getElementById("tno2").value;
+         
+         xmlhttp.onreadystatechange = function()
+          {
+		     if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+		     {
+		          document.getElementById("rs").value = xmlhttp.responseText;
+		     }
+		     else
+		     {
+		         document.getElementById("rs").value = "Error in execution";
+		     }
+		 };
+		xmlhttp.open("GET", "slip24a.php?a="+s1+"&b="+s2, true);
+	
+        xmlhttp.send();
+       }
+      </script>
+  </head>
+   <body>
+     <form name="f1" method="get">
+          Enter First No :<input type="text" id="tno1"><br>
+           Enter Second No : <input type="text" id="tno2"><br>
+          <input type="button" onclick="fun1()" value="Addition" />
+          <input type = "text" id = "rs">
+           
+      </form>
+   </body>
+</html>

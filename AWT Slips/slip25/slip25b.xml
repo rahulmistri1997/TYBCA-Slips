@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bookstore>
+ <COOKING>
+<book>
+<Book_PubYear>2006</Book_PubYear>
+<Book_Title lang="en">Baking: From my Home to Yours</Book_Title>
+<Book_Author>Dorie Greenspan</Book_Author>
+</book>
+</COOKING>
+<TECHNICAL>
+<book>
+<Book_PubYear>2005</Book_PubYear>
+    <Book_Title lang="en">PHP</Book_Title>
+    <Book_Author>Ivan Byross</Book_Author>
+  </book>
+</TECHNICAL>
+<YOGA>
+<book>
+<Book_PubYear>2014</Book_PubYear>
+<Book_Title lang="en">The Power of Yoga</Book_Title>
+<Book_Author>Yamini Muthanna</Book_Author>
+</book>
+</YOGA>
+</bookstore>

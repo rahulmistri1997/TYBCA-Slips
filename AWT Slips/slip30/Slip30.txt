@@ -1,0 +1,2 @@
+Text file for php $_http_response_header
+testing header content.

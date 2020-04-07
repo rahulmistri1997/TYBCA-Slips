@@ -1,0 +1,34 @@
+<html>
+  <head><title>Slip7b</title>
+      <script language = "javascript">
+      var xmlhttp = new XMLHttpRequest();
+
+       function fun1()
+       {
+         var str = document.getElementById("txtbnm").value;
+xmlhttp.onreadystatechange = function()
+          {
+		     if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+		     {
+		          document.getElementById("d1").innerHTML = xmlhttp.responseText;
+		     }
+		     else
+		     {
+		         document.getElementById("d1").innerHTML = "not ready or status is not 200";
+		     }
+		 };
+		xmlhttp.open("GET", "slip7b.php?b="+str, true);
+	
+        xmlhttp.send();
+       }
+      </script>
+  </head>
+   <body>
+     <form name="f1" method="get">
+        Enter Bus Name : <input type="text" id="txtbnm">
+        <br>
+        <input type="button" onclick="fun1()" value="Check Bus Details" />
+        <div id = "d1"> </div>
+      </form>
+   </body>
+</html>

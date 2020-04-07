@@ -1,0 +1,37 @@
+
+<html>
+  <head><title>slip8b</title>
+      <script language = "javascript">
+      var xmlhttp = new XMLHttpRequest();
+
+       function fun1()
+       {
+         var str = document.getElementById("txtunm").value;
+     
+         xmlhttp.onreadystatechange = function()
+          {
+		     if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+		     {
+		          document.getElementById("d1").innerHTML = xmlhttp.responseText;
+		     }
+		     else
+		     {
+		         document.getElementById("d1").innerHTML = "not ready or status is not 200";
+		     }
+		 };
+		xmlhttp.open("GET", "slip8b.php?u="+str, true);
+	
+        xmlhttp.send();
+       }
+      </script>
+  </head>
+   <body>
+     <form name="f1" method="get">
+        Enter User Name : <input type="text" id="txtunm">
+       <span id = "d1" style="font-size: 20; color: blue"> </span>
+                <br>
+        <input type="button" onclick="fun1()" value="Validate User Name" />
+
+      </form>
+   </body>
+</html>

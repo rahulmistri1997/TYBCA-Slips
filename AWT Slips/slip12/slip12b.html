@@ -1,0 +1,35 @@
+<html>
+  <head><title>slip12</title>
+      <script language = "javascript">
+      var xmlhttp = new XMLHttpRequest();
+
+       function fun1()
+       {
+         var str = document.getElementById("t1").value;
+         
+         xmlhttp.onreadystatechange = function()
+          {
+		     if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+		     {
+		          document.getElementById("d1").innerHTML = xmlhttp.responseText;
+		     }
+		     else
+		     {
+		         document.getElementById("d1").innerHTML = "not ready or status is not 200";
+		     }
+		 };
+		xmlhttp.open("GET", "slip12b.php?s="+str, true);
+	
+        xmlhttp.send();
+       }
+      </script>
+  </head>
+   <body>
+     <form name="f1" method="get">
+        Enter Student Name : <input type="text" id="t1">
+        <br>
+        <input type="button" onclick="fun1()" value="Display Details" />
+        <div id = "d1"> </div>
+      </form>
+   </body>
+</html>

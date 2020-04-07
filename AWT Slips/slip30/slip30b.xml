@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vehicle>
+<Type t="Two Wheeler">
+	<VehicleName>Vespa</VehicleName>
+	<Company>Piaggo</Company>
+	<Average>45</Average>
+</Type>
+<Type t="Four Wheeler"><VehicleName>X5</VehicleName><Company>Audi</Company><Color>Black</Color><Average>18</Average></Type><Type t="Four Wheeler"><VehicleName>x2</VehicleName><Company>BMW</Company><Color>Black</Color><Average>18</Average></Type><Type t="Two Wheeler"><VehicleName>MIA</VehicleName><Company>Maruti</Company><Color>green</Color><Average>25</Average></Type></Vehicle>

@@ -1,0 +1,37 @@
+<html>
+<head>
+<script>
+                function getans()
+                {
+                                st1=document.getElementById('txtname').value;
+                                st2=document.getElementById('txtpass').value;
+                                ob=new XMLHttpRequest();
+               
+                                ob.onreadystatechange=function()
+                                {
+                                                if(ob.readyState==4 && ob.status==200)
+                                                {
+                                                                if(ob.responseText==3)
+                                                                {
+                                                                                alert("sorry you lost the chances to login");
+                                                                                location="error.html";
+                                                                }
+                                                                else if(ob.responseText=="correct")
+                                                                {
+                                                                                alert("you entered correct details");
+                                                                }
+                                                                else alert(ob.responseText);     
+                                                }                                             
+                                }             
+                                ob.open("GET","slip10a.php?n="+st1+"&p="+st2);
+                                ob.send();
+                }
+</script>
+</head>
+<body>
+<input type=text id=txtname placeholder="username"></br>
+<input type=password id=txtpass placeholder="password"></br>
+<input type="button" onclick="getans()" value="Login">
+
+</body>
+</html>

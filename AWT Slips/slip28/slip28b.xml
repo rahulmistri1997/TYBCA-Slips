@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CricketTeam>
+<cricket>
+<player>Virat Kholi</player>
+<runs>15000</runs>
+<wickets>60</wickets>
+<noofnotout>10</noofnotout>
+</cricket>
+<cricket>
+<player>M.S.Dhoni</player>
+<runs>25000</runs>
+<wickets>70</wickets>
+<noofnotout>10</noofnotout>
+</cricket>
+<cricket>
+<player>Rohit Sharma</player>
+<runs>20000</runs>
+<wickets>30</wickets>
+<noofnotout>10</noofnotout>
+</cricket>
+<cricket>
+<player>Yuvraj Singh</player>
+<runs>15000</runs>
+<wickets>30</wickets>
+<noofnotout>10</noofnotout>
+</cricket>
+<cricket>
+<player>Shikhar Dhawan</player>
+<runs>25000</runs>
+<wickets>60</wickets>
+<noofnotout>10</noofnotout>
+</cricket>
+</CricketTeam>

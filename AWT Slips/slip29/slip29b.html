@@ -1,0 +1,34 @@
+<html>
+<head><title>slip29</title>
+    <script language = "javascript">
+         function fun1()
+         {
+              var obj = new XMLHttpRequest();
+              var uid = document.getElementById("tuid").value;
+              var pwd = document.getElementById("tpwd").value;
+
+              obj.open("POST", "slip29b.php",true);
+obj.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
+              obj.send("u="+uid+"&p="+pwd);
+              obj.onreadystatechange = function()
+              {
+                 if(obj.readyState == 4 && obj.status == 200)
+                 {
+                     document.getElementById("s1").innerHTML = obj.responseText;
+                 }
+
+              }
+         }
+    </script>
+  </head>
+   <body>
+     <form name="f1" method="get">
+	<span id = "s1" style="font-size: 15; color: blue"> </span>
+          Enter User Id :<input type="text" id="tuid"><br>
+           Enter Password : <input type="text" id="tpwd"><br>
+          <input type="button" onclick="fun1()" value="Login" />
+         
+           
+      </form>
+   </body>
+</html>

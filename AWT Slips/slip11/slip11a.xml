@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CD>
+<track>
+<path>song1.mp3</path>
+<title>Track 1-Track Title</title>
+</track>
+<track>
+<path>song2.mp3</path>
+<title>Track 2-Track Title</title>
+</track>
+<track>
+<path>song3.mp3</path>
+<title>Track 3-Track Title</title>
+</track>
+<track>
+<path>song4.mp3</path>
+<title>Track 4-Track Title</title>
+</track>
+</CD>

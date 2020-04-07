@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CricketTeam>
+<Team country="India">
+<player>M.S.Dhoni</player>
+<runs>6000</runs>
+<wicket>70</wicket>
+</Team>
+<Team country="Australia"><player>Ivan</player><runs>4000</runs><wicket>40</wicket></Team><Team country="Australia"><player>ad</player><runs>da</runs><wicket>2</wicket></Team></CricketTeam>
