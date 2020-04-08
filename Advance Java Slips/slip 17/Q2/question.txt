@@ -1,0 +1,1 @@
+slip 17 Q2. Write a JDBC application using swing for the following: Type DDL Query Create Table Drop Table Alter Table

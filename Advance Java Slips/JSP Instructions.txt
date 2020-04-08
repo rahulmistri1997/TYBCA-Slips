@@ -1,0 +1,3 @@
+copy jsp file in a folder here " C:\xampp\tomcat\webapps "
+
+run via tomcat (case sensitive)

@@ -1,0 +1,1 @@
+slip 27 Q2. Write a Multithreading program in java to create an applet thatcontains a TextField to show time. The time should be displayed in the hh:mm:ss format. The thread should start when the user clicks the Start button and stop when the user clicks the stop button. Initialize the values tocurrent time.

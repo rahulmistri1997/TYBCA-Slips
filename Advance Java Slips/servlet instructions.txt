@@ -1,0 +1,60 @@
+TOMCAT CONFIGURATION AND SERVLET PROGRAMMING
+To run servlet program you need two thing
+1. Set CLASSPATH for tomcat
+2. Create web.xml file
+To configure your tomcat go to your Tomcat folder->lib see if there is servlet-api.jar file in the folder and copy it to the environment variables
+The path should be as follows for Tomcat in environment variables\system variables
+Variable Name: CLASSPATH
+Variable Path: your_Tomcat_location\lib\servlet-api.jar
+To set the path right click on computer go to properties.In left-side go to Advanced windows settings then go environment variables and then set the path in system variables
+Set the java path and JAVA_home path in environmwent variables
+Path is your_java_folder/jdk/bin
+And JAVA_HOME is your_java_folder/jdk/
+Set these three paths and check if your tomcat is running
+To run tomcat go to bin of tomcat see for startup.bat file and run it
+now see if your tomcat is running on your browser using localhost:8080
+To run servlet program first complie the program from anywhere in your pc.
+If the class file is created copy that file and paste in your “tomcat/webapps/projname/WEB-INF/classes “ folder
+
+create the web.xml file in “tomcat/webapps/projname/WEB-INF”
+
+HOW TO CREATE XML FILE??
+<web-app>
+<servlet>
+<servlet-name>test</servlet-name>
+<servlet-class>DemoServ</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>test</servlet-name>
+<url-pattern>/hi</url-pattern>
+</servlet-mapping>
+</web-app>
+
+DemoServ.java
+import javax.servlet.http.*;
+import javax.servlet.*;
+import java.io.*;
+public class DemoServ extends HttpServlet
+{
+public void doGet(HttpServletRequest req,HttpServletResponse res)throws ServletException,IOException
+{
+res.setContentType("text/html");
+PrintWriter pw=res.getWriter();
+String name=req.getParameter("name");
+pw.println("Welcome "+name);
+}
+}
+
+HOW TO RUN SERVLET PROGRAM.
+1. To run servlet program you Here <servlet-name> can be anything in my case it is raj.It can be a,b,c or anything you want
+2. In <servlet-class> you have to write the class file name that was compiled
+3. In servlet-mapping> you again have to write <servlet-name>4. <url-pattern> is your url link in my case it is hi you can write bye or anything you want
+5. Remember in url-pattern just give the / as shown above
+need to things
+1. Class file
+2. Web.xml file
+Now go to browser and type localhost: 8080 and see if your tomcat is running
+If yes type the following:
+Localhost:8080/your_project_name/your url-pattern name
+As per above xml file it should be as follows:
+Localhost:8080/your_project_name/hi

@@ -1,0 +1,1 @@
+slip 29 Q2. Write a menu driven java program for the following: Insert Update Delete Search Display Exit Consider Student (rno, sname, per) table for this.

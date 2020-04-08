@@ -1,0 +1,1 @@
+slip 16 Q2. Write a program in java which will show life cycle (creation, sleep, and dead) of a thread. Program should print randomly the name of thread and value of sleep time. The name of the thread should be hard coded through constructor. Thesleep time of a thread will be a random integer in the range 0 to 4999.

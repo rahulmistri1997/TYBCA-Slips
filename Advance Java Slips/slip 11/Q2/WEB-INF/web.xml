@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>Interval</servlet-name>
+        <servlet-class>InactiveIntervalServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Interval</servlet-name>
+        <url-pattern>/time</url-pattern>
+    </servlet-mapping>
+</web-app>

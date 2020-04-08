@@ -1,0 +1,1 @@
+slip 4 Q2.Write a JSP program to create an online shopping mall. User must be allowed to do purchase from two pages. Each page should have a page total. The third page should display a bill, which consists of a page total of whatever the purchase has been done and print the total.(Use Session)

@@ -1,0 +1,1 @@
+slip 30 Q2. Write a servlet program to display the details of Product (ProdCode, PName, Price) on the browser in tabular format. (Use database)

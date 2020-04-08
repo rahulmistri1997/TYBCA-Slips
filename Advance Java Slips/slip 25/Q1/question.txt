@@ -1,0 +1,1 @@
+Slip25 Q1. Write a JSP script to accept UserName and his NickName through html page and then displays username when visit count to page is odd and displays nickname when the visit count to the page is even.

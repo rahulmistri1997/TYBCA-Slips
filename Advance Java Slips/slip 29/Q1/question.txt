@@ -1,0 +1,1 @@
+Slip29 Q1. Write a JSP program to accept Name and Age of Voter and check whether he is eligible for voting or not.

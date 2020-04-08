@@ -1,0 +1,5 @@
+https://www.javatpoint.com/java-applet
+
+example:
+c:\>javac First.java
+c:\>appletviewer First.java

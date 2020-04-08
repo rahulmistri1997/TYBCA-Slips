@@ -1,0 +1,1 @@
+Slip7 Q1. Write a JSP program to calculate sum of first and last digit of a given number. Display sum in Red Color with font size 18.

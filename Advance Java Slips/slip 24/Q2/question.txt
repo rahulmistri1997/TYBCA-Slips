@@ -1,0 +1,1 @@
+slip 24 Q2.Write a java program to accept the details of college(CID, CName, Address, year) and store it into database (Use Swing andPreparedStatement interface)

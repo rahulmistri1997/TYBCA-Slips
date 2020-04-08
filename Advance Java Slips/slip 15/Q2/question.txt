@@ -1,0 +1,1 @@
+slip 15 Q2. Write a servlet program in java to accept details of student (SeatNo, Stud_Name, Class, Total_Marks).Calculate percentage and grade obtained and display details on page.

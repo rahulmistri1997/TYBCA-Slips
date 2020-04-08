@@ -1,0 +1,1 @@
+slip 18 Q2. Write a servlet program that provides information about a HTTP request from a client, such as IP address and browser type. The servlet also provides information about the server on which theservlet is running, such as the operating system type, and the names of currently loaded servlets.

@@ -1,0 +1,1 @@
+Slip no 27: Q1. Write a JDBC program to delete the details of given employee (ENo EName Salary). Accept employee ID through command line.

@@ -1,0 +1,1 @@
+slip 14 Q2. Write a JDBCprogram in java to display details of Book_Sales(SalesID, Date, Amount) of selected month in JTable. Book_sales tableis already created. (Use JCombocomponent for Month selection)

@@ -1,0 +1,1 @@
+slip6 Q2.Write a socket program in java to check whether given file is present on server or not, If it is present then display its content on the server’s machine otherwise display error message.

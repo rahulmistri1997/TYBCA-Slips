@@ -1,0 +1,1 @@
+SLIP 14: Write a client server programs which displays the server machines date and time on the client machine.

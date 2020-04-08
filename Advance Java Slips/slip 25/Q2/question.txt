@@ -1,0 +1,1 @@
+slip 25 Q2. Write a JDBC program for implementation of scrollable ResultSet. Consider Emp table (eno ename, sal) – moveFirst – moveNext – movePrevious moveLast

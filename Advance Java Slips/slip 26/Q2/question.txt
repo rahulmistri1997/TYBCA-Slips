@@ -1,0 +1,1 @@
+slip 26 Q2. Write ajava program to display sales details of products between two dates inJTable(use database). Consider producttable (pid, pname, amount).

@@ -1,0 +1,1 @@
+SLIP23 : Write a JSP script to accept the details of Student (RNo, SName, Gender, Comp_Know ,Class) and display it on the browser. Use appropriate controls for accepting data.
