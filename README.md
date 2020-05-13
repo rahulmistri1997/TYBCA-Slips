@@ -7,14 +7,14 @@ Advance Java
 
 
 # TODO
-slip 8 q2 - long error
-slip 11q1 - direct ucanaccess doesn't have the feature to drop table
-slip 12q2 - long error
-slip 15q2 - long error
-slip 17q2 - ucanaccess driver error
-slip 20q1 - database
-slip 23q2 - database
-slip 26q2 - database
-slip 27q1 - Add driver and then make table in Database
-slip 29q2 - database
-slip 30q2 - code+database
+slip 8 q2 - long error <br />
+slip 11q1 - direct ucanaccess doesn't have the feature to drop table <br />
+slip 12q2 - long error <br />
+slip 15q2 - long error <br />
+slip 17q2 - ucanaccess driver error <br />
+slip 20q1 - database <br />
+slip 23q2 - database <br />
+slip 26q2 - database <br />
+slip 27q1 - Add driver and then make table in Database <br />
+slip 29q2 - database <br />
+slip 30q2 - code+database  <br />
