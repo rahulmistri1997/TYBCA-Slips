@@ -16,7 +16,7 @@ if(myname!=null)
 else
 {
 %>
-<form action="Slip1_checkLogin.jsp">
+<form action="Slip1_checklogin.jsp">
 <table>
 <tr>
 <td> Username : </td><td><input name="username" size=15 type="text"
