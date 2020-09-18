@@ -19,8 +19,8 @@ class MyThread extends Thread{
 
 class ThreadLifeCycle{
     public static void main(String args[]){
-                MyThread t1 = new MyThread("archana"),
-                            t2 = new MyThread("adhira");
+                MyThread t1 = new MyThread("Rahul"),
+                            t2 = new MyThread("Ron");
                 t1.start();
                 t2.start();
 
