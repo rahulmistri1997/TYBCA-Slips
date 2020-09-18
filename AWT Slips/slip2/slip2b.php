@@ -1,36 +1,26 @@
 <?php
-interface shape
+$r = $_GET['r'];
+$h = $_GET['h'];
+define('PI','3.14');
+interface cal
 {
-	const pi=3.14;
-	function area();
-	function volume();
+ function area($r,$h);
+ function vol($r,$h);
 }
-class cylinder implements shape
+class cylinder implements cal
 {
-	var $radius;
-	var $height;
-	function define($r,$h)
-	{
-		$this->radius=$r;
-		$this->height=$h;
-	}
-	function area()	
-	{
-		$a=(2*shape::pi*$this->radius*$this->height)+(2*shape::pi*$this->radius*$this->radius);
-		echo "Area = $a.<br>";
-	}
-	function volume()
-	{
-		$v=shape::pi*$this->radius*$this->radius*$this->height;
-		echo "<br> Volume=$v";
-	}
+ function area($r,$h)
+ {
+ $area = 2*PI*$r*($r+$h);
+ echo "<h3>The area of cylinder is :$area</h3>";
+ }
+ function vol($r,$h)
+ {
+ $vol = PI*$r*$r*$h;
+ echo "<h3>The volume of cylinder is :$vol</h3>";
+ }
 }
-
-	
-echo "<br>Cylinder.<br>";
-$c=new cylinder;
-$c->define(3,4);
-$c->area();
-$c->volume();
-
+$c = new cylinder;
+ $c->area($r,$h);
+ $c->vol($r,$h);
 ?>
