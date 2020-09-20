@@ -1,0 +1,7 @@
+Install xampp
+
+Copy php files or folder inside "C:\xampp\htdocs"
+
+Start apache on xampp
+
+view via localhost on your prefered browser
